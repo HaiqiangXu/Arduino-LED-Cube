@@ -184,8 +184,8 @@ void CLedGame::SimonLed()
     delay(250);
 }
 
-void CLedGame::GenerateLed()
-{
+/*void CLedGame::GenerateLed()
+{*/
     /* PROBLEM -> common positive for columns and common grounds for same plane Z makes impossible to keep only two leds in different planes ON. Imagine following situation:
         - led (0, 0, 0) and led (0, 1, 1) are ON. You can think there should be only 2 leds ON but there are four:
         - led (0, 0, 0) , led (0, 1, 1), led (0, 1, 0), led (0, 1, 0) are ON as the two colums (0, 0) and (0, 1) and planes Z (0) and (1) are ON
@@ -200,7 +200,7 @@ void CLedGame::GenerateLed()
 
         m_leds->SetLedOnOff(m_iSimonX, m_iSimonY, m_iSimonZ, true);
         m_lTimeLedOn = millis();
-    }*/
-}
+    }
+}*/
 
 #pragma endregion

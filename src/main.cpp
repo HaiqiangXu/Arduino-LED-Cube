@@ -1,4 +1,4 @@
-#include <main.h>
+#include <Arduino.h>
 
 #ifdef DIM_3x3x3
 /* xy-plane, Pin allocation:

@@ -3,9 +3,9 @@
 #include <CLeds.h>
 #include <CJoystick.h>
 
-const int IN_AXIS_X = 17;   //A3
-const int IN_AXIS_Y = 18;   //A4
-const int IN_BUTTON = 2;
+const uint8_t IN_AXIS_X = 17;   //A3
+const uint8_t IN_AXIS_Y = 18;   //A4
+const uint8_t IN_BUTTON = 2;
 const unsigned long TIME_TO_POWER_DOWN = 60000;     //1 minute
 const int MAX_SIMON_LEVELS = 8;
 
@@ -69,5 +69,5 @@ private:
     void ReadJoystick();
     void MoveAndCheckLed();
     void SimonLed();
-    void GenerateLed();
+    ///void GenerateLed();
 };

@@ -4,7 +4,7 @@ Software project for Arduino Nano to control 3D LED cubes.
 
 ## Features
 - Configurable cube size. Right now works for LED cubes 3x3x3 and 4x4x4 configurations
-- Configurable between pattern/marquee leds and interactive game
+- Configurable between pattern/effect leds and interactive game
 - Interactive Simon game through joystick
 
 ### Hardware components used for Led Cube
@@ -13,7 +13,7 @@ Software project for Arduino Nano to control 3D LED cubes.
 - Blue 5 mm LED diodes. 64 leds for 4x4x4 cubes and 27 leds for 3x3x3 cubes
 - Resistors 330 ohms. 16 resistors for 4x4x4 cubes and 9 resistors for 3x3x3 cubes
 - Battery or powerbank [ 5V,  +2200 mAh ]
-- Optional joystick analog 2-Axis with button for interactive games
+- Optional joystick analog 2-Axis with button for interactive game
 - Optional dip switch to turn on/off the cube
 - Cube structure, up to your imagination. I followed instructions from [here](https://tutorial.cytron.io/2015/08/17/4x4x4-led-cube-using-arduino-uno-without-extra-ic/)
 
@@ -48,8 +48,7 @@ Generic-Libraries
 
 ### **TODO**: electrical schematics
 
-### Led cube 3x3x3 with joystick for Simon game
-<img src="doc/img/cube_3x3x3.jpg" width="20%" alt="cube_3x3x3">
 
-### Led cube 4x4x4
-<img src="doc/img/cube_4x4x4.jpg" width="20%" alt="cube_4x4x4">
+| **Led cube 3x3x3 with joystick for Simon game** | **Led cube 4x4x4** |
+| ------- | ----------- |
+| <img src="doc/img/cube_3x3x3.jpg" width="30%" alt="cube_3x3x3"/> | <img src="doc/img/cube_4x4x4.jpg" width="30%" alt="cube_4x4x4"/> |
