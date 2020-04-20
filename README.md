@@ -51,4 +51,4 @@ Generic-Libraries
 
 | **Led cube 3x3x3 with joystick for Simon game** | **Led cube 4x4x4** |
 | ------- | ----------- |
-| <img src="doc/img/cube_3x3x3.jpg" width="30%" alt="cube_3x3x3"/> | <img src="doc/img/cube_4x4x4.jpg" width="30%" alt="cube_4x4x4"/> |
+| <img src="doc/img/cube_3x3x3b.jpg" width="30%" alt="cube_3x3x3"/> | <img src="doc/img/cube_4x4x4b.jpg" width="30%" alt="cube_4x4x4"/> |
